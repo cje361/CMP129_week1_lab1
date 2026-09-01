@@ -13,15 +13,11 @@ public class BoxOffice {
        System.out.println("Child Tickets Sold: ");
        int ChildSold =input.nextInt();
 
-       int AdultTicket = 10;
-       int ChildTicket = 6;
-       double interest = 0.2;
-       int AdultPrice = 0;
-       int ChildPrice = 0;
+      double profit = (AdultSold * 10.00) + (ChildSold * 6.00);
+      double netprofit = profit * 0.20;
+      double distributor = profit - netprofit;
 
-       AdultTicket x AdultSold=AdultPrice;
-
-       System.out.println(AdultPrice);
+      Sy
 
     }
     
