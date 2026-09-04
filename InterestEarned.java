@@ -24,8 +24,8 @@ public class InterestEarned {
         System.out.println("Interest Rate: " + interestrate + "%");
         System.out.println("Times Compounded: " + compound);
         System.out.println("Principal: $ " + principal);
-        System.out.println("Interest: $ " + (amount - principal));
-        System.out.println("Amount in Savings: $ " + amount);
+        System.out.printf("Interest: $ " + (amount - principal));
+        System.out.printf("\nAmount in Savings: $ " + amount);
 
     }
 }
