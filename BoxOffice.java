@@ -17,7 +17,12 @@ public class BoxOffice {
       double netprofit = profit * 0.20;
       double distributor = profit - netprofit;
 
-      Sy
+      System.out.println("Movie Name: " + MovieName);
+      System.out.println("Adult Tickets Sold: " + AdultSold);
+      System.out.println("Children Tickets Sold: " + ChildSold);
+      System.out.println("Gross Box Office Profit: $ " + profit);
+      System.out.println("Net Box Office Profit: $ " + netprofit);
+      System.out.println("Amount Paid to Distributor: $ " + distributor);
 
     }
     
